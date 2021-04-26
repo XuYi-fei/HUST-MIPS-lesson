@@ -36,9 +36,9 @@
 
 如下为本人提交结果图：
 
-![](Micro_CPU/Result_figures/本人网站提交结果.png)
+![](MicroCPU/Result_figures/本人网站提交结果.png)
 
 
 
-如下为最终仿真图：![](./Micro_CPU/Result_figures/mipscpu_sim.png)
+如下为最终仿真图：![](./MicroCPU/Result_figures/mipscpu_sim.png)
 
