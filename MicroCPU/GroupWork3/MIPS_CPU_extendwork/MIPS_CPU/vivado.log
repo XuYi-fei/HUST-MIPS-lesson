@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Apr 27 00:07:45 2021
+# Process ID: 20160
+# Current directory: D:/Learning/Analog/Vivado/MIPS_CPU_extendwork/MIPS_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18812 D:\Learning\Analog\Vivado\MIPS_CPU_extendwork\MIPS_CPU\MIPS_CPU.xpr
+# Log file: D:/Learning/Analog/Vivado/MIPS_CPU_extendwork/MIPS_CPU/vivado.log
+# Journal file: D:/Learning/Analog/Vivado/MIPS_CPU_extendwork/MIPS_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Learning/Analog/Vivado/MIPS_CPU_extendwork/MIPS_CPU/MIPS_CPU.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Vivado2020_1/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 1024.355 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 27 00:31:14 2021...

@@ -1,0 +1,246 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Apr 24 21:43:04 2021
+# Process ID: 17500
+# Current directory: D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.runs/synth_1
+# Command line: vivado.exe -log mipscpu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mipscpu.tcl
+# Log file: D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.runs/synth_1/mipscpu.vds
+# Journal file: D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mipscpu.tcl -notrace
+Command: synth_design -top mipscpu -part xc7a100tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16472
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mipscpu' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:21]
+INFO: [Synth 8-6157] synthesizing module 'PC' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/PC.v:23]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PC' (1#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/PC.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'Clk' does not match port width (1) of module 'PC' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:55]
+INFO: [Synth 8-6157] synthesizing module 'InstrROM' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/InstrROM.v:23]
+	Parameter n bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'InstrROM' (2#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/InstrROM.v:23]
+WARNING: [Synth 8-689] width (7) of port connection 'Addr' does not match port width (5) of module 'InstrROM' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:57]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MainCtr' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MainCtr.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MainCtr' (3#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MainCtr.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALUControl' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALUControl.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALUControl' (4#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALUControl.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (5#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mux2_1' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Mux2_1.v:23]
+	Parameter n bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux2_1' (6#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Mux2_1.v:23]
+WARNING: [Synth 8-840] conflicting parameter overrides for parameter 'n' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:63]
+INFO: [Synth 8-6157] synthesizing module 'LeftShift' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/LeftShift.v:23]
+	Parameter n bound to: 26 - type: integer 
+	Parameter m bound to: 32 - type: integer 
+	Parameter x bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'LeftShift' (7#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/LeftShift.v:23]
+WARNING: [Synth 8-689] width (28) of port connection 'Out' does not match port width (32) of module 'LeftShift' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:62]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Adder.v:23]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (8#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Adder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Concat' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Concat.v:23]
+	Parameter n bound to: 4 - type: integer 
+	Parameter m bound to: 28 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Concat' (9#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Concat.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mux3_1' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Mux3_1.v:23]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Mux2_1__parameterized0' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Mux2_1.v:23]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux2_1__parameterized0' (9#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Mux2_1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mux3_1' (10#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Mux3_1.v:23]
+WARNING: [Synth 8-840] conflicting parameter overrides for parameter 'n' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:73]
+INFO: [Synth 8-6157] synthesizing module 'LeftShift__parameterized0' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/LeftShift.v:23]
+	Parameter n bound to: 32 - type: integer 
+	Parameter m bound to: 32 - type: integer 
+	Parameter x bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'LeftShift__parameterized0' (10#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/LeftShift.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegFile' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/RegFile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegFile' (11#1) [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/RegFile.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'RsAddr' does not match port width (5) of module 'RegFile' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:74]
+WARNING: [Synth 8-689] width (5) of port connection 'RegWr' does not match port width (1) of module 'RegFile' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:74]
+WARNING: [Synth 8-689] width (32) of port connection 'Clk' does not match port width (1) of module 'RegFile' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:74]
+WARNING: [Synth 8-7071] port 'RtData' of module 'RegFile' is unconnected for instance 'U10' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:74]
+WARNING: [Synth 8-7023] instance 'U10' of module 'RegFile' has 8 connections declared, but only 7 given [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:74]
+INFO: [Synth 8-6157] synthesizing module 'SignedExtend' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/SignedExtend.v:23]
+	Parameter n bound to: 16 - type: integer 
+	Parameter m bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SignedExtend' (12#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/SignedExtend.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (13#1) [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Concat__parameterized0' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Concat.v:23]
+	Parameter n bound to: 1 - type: integer 
+	Parameter m bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Concat__parameterized0' (13#1) [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Concat.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'Out' does not match port width (2) of module 'Concat__parameterized0' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:82]
+INFO: [Synth 8-6157] synthesizing module 'DataRAM' [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/DataRAM.v:23]
+	Parameter n bound to: 5 - type: integer 
+	Parameter m bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DataRAM' (14#1) [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/DataRAM.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mipscpu' (15#1) [D:/Learning/Analog/Vivado/MIPS_CPU_S/MIPS_CPU_S.srcs/sources_1/new/mipscpu.v:21]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-3
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	  33 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 8     
+	   6 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1025.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1025.906 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1025.906 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1025.906 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1025.906 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+46 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1025.906 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.runs/synth_1/mipscpu.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mipscpu_utilization_synth.rpt -pb mipscpu_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 24 21:43:21 2021...
