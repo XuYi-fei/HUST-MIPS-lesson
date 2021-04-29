@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Apr 29 20:22:23 2021
+# Process ID: 12960
+# Current directory: D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10868 D:\Learning\Analog\Vivado\MIPS_CPU\MIPS_CPU\MIPS_CPU.xpr
+# Log file: D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/vivado.log
+# Journal file: D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+source mipscpusim.tcl
+current_wave_config {}
+add_wave {{/mipscpusim/uut/CurrentPC}} {{/mipscpusim/uut/SequencePC}} {{/mipscpusim/uut/JumpPC}} {{/mipscpusim/uut/BranchPC}} {{/mipscpusim/uut/TempPC}} {{/mipscpusim/uut/Boffset}} {{/mipscpusim/uut/Instr}} {{/mipscpusim/uut/MemData}} {{/mipscpusim/uut/Data2Reg}} {{/mipscpusim/uut/Res}} {{/mipscpusim/uut/RsData}} {{/mipscpusim/uut/RtData}} {{/mipscpusim/uut/ALUIn2}} {{/mipscpusim/uut/SignExtended}} {{/mipscpusim/uut/Branch}} {{/mipscpusim/uut/J}} {{/mipscpusim/uut/B}} {{/mipscpusim/uut/Zero}} {{/mipscpusim/uut/RegDst}} {{/mipscpusim/uut/RegWr}} {{/mipscpusim/uut/ALUSrc}} {{/mipscpusim/uut/MemWr}} {{/mipscpusim/uut/Mem2Reg}} {{/mipscpusim/uut/BZero}} {{/mipscpusim/uut/ALUOp}} {{/mipscpusim/uut/PCsel}} {{/mipscpusim/uut/WrAddr}} {{/mipscpusim/uut/JumpTarget}} {{/mipscpusim/uut/ALUCtr}} 
+restart
+run all
+close_sim

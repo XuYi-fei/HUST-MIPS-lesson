@@ -1,0 +1,191 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Apr 29 20:22:23 2021
+# Process ID: 12960
+# Current directory: D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10868 D:\Learning\Analog\Vivado\MIPS_CPU\MIPS_CPU\MIPS_CPU.xpr
+# Log file: D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/vivado.log
+# Journal file: D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Vivado2020_1/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 1029.078 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mipscpusim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mipscpusim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Concat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Concat
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+ERROR: [VRFC 10-2989] 'OpSrc' is not declared [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v:34]
+ERROR: [VRFC 10-2989] 'NESrc' is not declared [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v:35]
+ERROR: [VRFC 10-2989] 'LGSrc' is not declared [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v:36]
+ERROR: [VRFC 10-2865] module 'Controller' ignored due to previous errors [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mipscpusim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mipscpusim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Concat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Concat
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+ERROR: [VRFC 10-2989] 'OpSrc' is not declared [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v:34]
+ERROR: [VRFC 10-2989] 'NESrc' is not declared [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v:35]
+ERROR: [VRFC 10-2989] 'LGSrc' is not declared [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v:36]
+ERROR: [VRFC 10-2865] module 'Controller' ignored due to previous errors [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mipscpusim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mipscpusim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Concat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Concat
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/DataRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/InstrROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/LeftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LeftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MainCtr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainCtr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Mux3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/SignedExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignedExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/mipscpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mipscpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/mipscpusim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mipscpusim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim'
+"xelab -wto 30ca98d5ca004b72928febbef392ac46 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mipscpusim_behav xil_defaultlib.mipscpusim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/Vivado2020_1/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 30ca98d5ca004b72928febbef392ac46 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mipscpusim_behav xil_defaultlib.mipscpusim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC(n=32)
+Compiling module xil_defaultlib.InstrROM(n=5)
+Compiling module xil_defaultlib.MainCtr
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Mux2_1(n=5)
+Compiling module xil_defaultlib.LeftShift(n=26,m=28,x=2)
+Compiling module xil_defaultlib.Adder(n=32)
+Compiling module xil_defaultlib.Concat(n=4,m=28)
+Compiling module xil_defaultlib.Mux2_1
+Compiling module xil_defaultlib.Mux3_1(n=32)
+Compiling module xil_defaultlib.LeftShift(n=32,x=2)
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.SignedExtend(n=16,m=32)
+Compiling module xil_defaultlib.Mux2_1(n=32)
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Concat(n=1,m=1)
+Compiling module xil_defaultlib.DataRAM(n=5,m=32)
+Compiling module xil_defaultlib.mipscpu
+Compiling module xil_defaultlib.mipscpusim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mipscpusim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mipscpusim_behav -key {Behavioral:sim_1:Functional:mipscpusim} -tclbatch {mipscpusim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source mipscpusim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 230 ns : File "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/mipscpusim.v" Line 51
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mipscpusim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1123.750 ; gain = 0.000
+current_wave_config {}
+WARNING: [Wavedata 42-16] Error Unable to get wave configuration ''.
+Untitled 1
+add_wave {{/mipscpusim/uut/CurrentPC}} {{/mipscpusim/uut/SequencePC}} {{/mipscpusim/uut/JumpPC}} {{/mipscpusim/uut/BranchPC}} {{/mipscpusim/uut/TempPC}} {{/mipscpusim/uut/Boffset}} {{/mipscpusim/uut/Instr}} {{/mipscpusim/uut/MemData}} {{/mipscpusim/uut/Data2Reg}} {{/mipscpusim/uut/Res}} {{/mipscpusim/uut/RsData}} {{/mipscpusim/uut/RtData}} {{/mipscpusim/uut/ALUIn2}} {{/mipscpusim/uut/SignExtended}} {{/mipscpusim/uut/Branch}} {{/mipscpusim/uut/J}} {{/mipscpusim/uut/B}} {{/mipscpusim/uut/Zero}} {{/mipscpusim/uut/RegDst}} {{/mipscpusim/uut/RegWr}} {{/mipscpusim/uut/ALUSrc}} {{/mipscpusim/uut/MemWr}} {{/mipscpusim/uut/Mem2Reg}} {{/mipscpusim/uut/BZero}} {{/mipscpusim/uut/ALUOp}} {{/mipscpusim/uut/PCsel}} {{/mipscpusim/uut/WrAddr}} {{/mipscpusim/uut/JumpTarget}} {{/mipscpusim/uut/ALUCtr}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+$stop called at time : 230 ns : File "D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/mipscpusim.v" Line 51
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 29 20:28:22 2021...

@@ -1,0 +1,32 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/Vivado2020_1/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 30ca98d5ca004b72928febbef392ac46 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mipscpusim_behav xil_defaultlib.mipscpusim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC(n=32)
+Compiling module xil_defaultlib.InstrROM(n=5)
+Compiling module xil_defaultlib.MainCtr
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Mux2_1(n=5)
+Compiling module xil_defaultlib.LeftShift(n=26,m=28,x=2)
+Compiling module xil_defaultlib.Adder(n=32)
+Compiling module xil_defaultlib.Concat(n=4,m=28)
+Compiling module xil_defaultlib.Mux2_1
+Compiling module xil_defaultlib.Mux3_1(n=32)
+Compiling module xil_defaultlib.LeftShift(n=32,x=2)
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.SignedExtend(n=16,m=32)
+Compiling module xil_defaultlib.Mux2_1(n=32)
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Concat(n=1,m=1)
+Compiling module xil_defaultlib.DataRAM(n=5,m=32)
+Compiling module xil_defaultlib.mipscpu
+Compiling module xil_defaultlib.mipscpusim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mipscpusim_behav

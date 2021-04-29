@@ -1,0 +1,11 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/Vivado2020_1/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 30ca98d5ca004b72928febbef392ac46 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mipscpusim_behav xil_defaultlib.mipscpusim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'In1' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/mipscpu.v:69]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'In1' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/mipscpu.v:70]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'In1' [D:/Learning/Analog/Vivado/MIPS_CPU/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/mipscpu.v:71]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
