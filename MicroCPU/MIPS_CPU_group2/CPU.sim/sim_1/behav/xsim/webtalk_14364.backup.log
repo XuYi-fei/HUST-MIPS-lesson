@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 26 18:52:20 2021
+# Process ID: 14364
+# Current directory: D:/verilog HDL project/test/CPU/CPU.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/verilog HDL project/test/CPU/CPU.sim/sim_1/behav/xsim/xsim.dir/mipscpu_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/verilog HDL project/test/CPU/CPU.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/verilog HDL project/test/CPU/CPU.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/verilog -notrace
+couldn't read file "D:/verilog": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 26 18:52:20 2021...

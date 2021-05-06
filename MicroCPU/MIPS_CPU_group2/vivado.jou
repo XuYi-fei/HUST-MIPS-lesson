@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Apr 28 21:37:27 2021
+# Process ID: 9268
+# Current directory: D:/verilog HDL project/test/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3304 D:\verilog HDL project\test\CPU\CPU.xpr
+# Log file: D:/verilog HDL project/test/CPU/vivado.log
+# Journal file: D:/verilog HDL project/test/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+oopen_project {D:/verilog HDL project/test/CPU/CPU.xpr}update_compile_order -fileset sources_1
+

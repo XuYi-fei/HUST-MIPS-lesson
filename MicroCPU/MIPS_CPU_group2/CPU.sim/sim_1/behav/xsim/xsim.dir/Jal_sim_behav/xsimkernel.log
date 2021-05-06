@@ -1,0 +1,7 @@
+Running: xsim.dir/Jal_sim_behav/xsimk.exe -simmode gui -wdb Jal_sim_behav.wdb -simrunnum 0 -socket 61077
+Design successfully loaded
+Design Loading Memory Usage: 6328 KB (Peak: 6328 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7164 KB (Peak: 7164 KB)
+Simulation CPU Usage: 31 ms

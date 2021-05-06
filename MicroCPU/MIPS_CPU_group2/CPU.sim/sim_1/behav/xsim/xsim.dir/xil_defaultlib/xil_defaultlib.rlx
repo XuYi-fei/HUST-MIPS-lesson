@@ -1,0 +1,24 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/verilog HDL project/test/CPU/CPU.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sim_1/new/Jal_sim.v,1619615421,verilog,,,,Jal_sim,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sim_1/new/mipscpu_sim.v,1619610393,verilog,,,,mipscpu_sim,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sim_1/new/regfile_sim.v,1619259342,verilog,,,,regfile_sim,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/ALU.v,1619274381,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/ALUControl.v,,ALU,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/ALUControl.v,1619661109,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Adder.v,,ALUControl,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Adder.v,1619273478,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Concat.v,,Adder,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Concat.v,1619273239,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Controller.v,,Concat,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Controller.v,1619661248,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/DataRAM.v,,Controller,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/DataRAM.v,1619435719,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/InstrROM.v,,DataRAM,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/InstrROM.v,1619662675,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Jal_CPU.v,,InstrROM,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Jal_CPU.v,1619663614,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/LeftShift.v,,Jal_CPU,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/LeftShift.v,1619273091,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/MainCtr.v,,LeftShift,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/MIPSCPU.v,1619610270,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/MainCtr.v,,MIPSCPU,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/MainCtr.v,1619663913,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Mux2_1.v,,MainCtr,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Mux2_1.v,1619273624,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Mux3_1.v,,Mux2_1,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/Mux3_1.v,1619432519,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/PC.v,,Mux3_1,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/PC.v,1619273391,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/RegFile.v,,PC,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/RegFile.v,1619613540,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/SignedExtend.v,,RegFile,,,,,,,,
+D:/verilog HDL project/test/CPU/CPU.srcs/sources_1/new/SignedExtend.v,1619273862,verilog,,D:/verilog HDL project/test/CPU/CPU.srcs/sim_1/new/Jal_sim.v,,SignedExtend,,,,,,,,

@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Apr 28 21:37:27 2021
+# Process ID: 9268
+# Current directory: D:/verilog HDL project/test/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3304 D:\verilog HDL project\test\CPU\CPU.xpr
+# Log file: D:/verilog HDL project/test/CPU/vivado.log
+# Journal file: D:/verilog HDL project/test/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+oopen_project {D:/verilog HDL project/test/CPU/CPU.xpr}CCRITICAL WARNING: [Project 1-19] Could not find the file 'D:/verilog HDL project/test/CPU/mipscpu_sim_behav.wcfg'.
+Scanning sources...
+Finished scanning sourcesIINFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specifiedIINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2020.1/data/ip'.oopen_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 1255.703 ; gain = 0.000update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 28 21:38:01 2021...
+

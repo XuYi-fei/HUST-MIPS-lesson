@@ -1,0 +1,5 @@
+
+*** Running vivado
+    with args -log Jal_CPU.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Jal_CPU.tcl
+
+

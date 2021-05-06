@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Jal_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Jal_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="175360fs"></ZoomEndTime>
+      <Cursor1Time time="63767fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/Jal_sim/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/tempJ" type="logic">
+      <obj_property name="ElementShortName">tempJ</obj_property>
+      <obj_property name="ObjectShortName">tempJ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/J" type="logic">
+      <obj_property name="ElementShortName">J</obj_property>
+      <obj_property name="ObjectShortName">J</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/JrCtr" type="logic">
+      <obj_property name="ElementShortName">JrCtr</obj_property>
+      <obj_property name="ObjectShortName">JrCtr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/Jal2Reg" type="logic">
+      <obj_property name="ElementShortName">Jal2Reg</obj_property>
+      <obj_property name="ObjectShortName">Jal2Reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/Instr" type="array">
+      <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/tempData2Reg" type="array">
+      <obj_property name="ElementShortName">tempData2Reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempData2Reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/SequencePC" type="array">
+      <obj_property name="ElementShortName">SequencePC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SequencePC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/Data2Reg" type="array">
+      <obj_property name="ElementShortName">Data2Reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data2Reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/RegFile_U1/RegWr" type="logic">
+      <obj_property name="ElementShortName">RegWr</obj_property>
+      <obj_property name="ObjectShortName">RegWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/WrAddr" type="array">
+      <obj_property name="ElementShortName">WrAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WrAddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/RegFile_U1/regs" type="array">
+      <obj_property name="ElementShortName">regs[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <obj_property name="Reversed">false</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/RegFile_U1/RsAddr" type="array">
+      <obj_property name="ElementShortName">RsAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RsAddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/tempPC" type="array">
+      <obj_property name="ElementShortName">tempPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/NextPC" type="array">
+      <obj_property name="ElementShortName">NextPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NextPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Jal_sim/example/RegFile_U1/RsData" type="array">
+      <obj_property name="ElementShortName">RsData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RsData[31:0]</obj_property>
+   </wvobject>
+</wave_config>

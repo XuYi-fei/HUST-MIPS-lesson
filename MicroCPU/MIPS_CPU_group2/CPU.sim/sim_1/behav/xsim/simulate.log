@@ -1,0 +1,3 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+$stop called at time : 230 ns : File "D:/verilog HDL project/test/CPU/CPU.srcs/sim_1/new/Jal_sim.v" Line 40
